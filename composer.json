@@ -1,0 +1,28 @@
+{
+    "name": "slaxweb/exception",
+    "description": "Exception collection for SlaxWeb Framework",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Tomaz Lovrec",
+            "email": "tomaz.lovrec@gmail.com"
+        }
+    ],
+    "require": {
+		"php":	">=7.0.0"
+    },
+    "suggest": {
+        "pimple/pimple": "Make use of available providers for Pimple version 3.0.x"
+    },
+	"autoload":	{
+		"psr-4": {
+			"SlaxWeb\\Exception\\": "src/"
+		}
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}
