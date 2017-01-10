@@ -2,7 +2,6 @@
     "name": "slaxweb/exception",
     "description": "Exception collection for SlaxWeb Framework",
     "license": "MIT",
-    "version": "0.1.0",
     "authors": [
         {
             "name": "Tomaz Lovrec",
@@ -22,7 +21,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.1.x-dev"
+            "dev-master": "0.2.x-dev"
         }
     }
 }
